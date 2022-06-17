@@ -1,0 +1,84 @@
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+a.active {
+  color: #ffbd43 !important;
+  text-shadow: 0px 5px 5px #0e1364 !important;
+}
+
+.navbar {
+  background-color: #3156c5;
+  box-shadow: -1px 10px 9px -4px rgba(224, 224, 224, 0.986);
+  -webkit-box-shadow: -1px 6px 9px -4px rgba(235, 233, 233, 0.75);
+  -moz-box-shadow: -1px 10px 9px -4px rgba(204, 204, 204, 0.75);
+}
+
+.navbar * {
+  -webkit-animation-name: navbar;
+          animation-name: navbar;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+@-webkit-keyframes navbar {
+  from {
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px);
+  }
+  to {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@keyframes navbar {
+  from {
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px);
+  }
+  to {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+.navbar a:hover {
+  color: #ffbd43 !important;
+  text-shadow: 0px 5px 5px #2747b1;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.8rem;
+  cursor: pointer;
+  color: #ffbd43 !important;
+  text-shadow: 0px 5px 5px #2747b1;
+}
+
+@media (max-width: 380px) {
+  .navbar .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+.nav-links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.4px;
+}
+
+.nav-links * {
+  margin-right: 1.1rem;
+  text-shadow: 0px 5px 5px #1e238f;
+  font-size: 1.3rem !important;
+}
+/*# sourceMappingURL=navbar.css.map */

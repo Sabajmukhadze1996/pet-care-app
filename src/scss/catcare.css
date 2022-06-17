@@ -1,0 +1,143 @@
+.dog-care-page {
+  overflow-x: hidden !important;
+  position: absolute;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.dog-care-page * {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-name: dogcarepage;
+          animation-name: dogcarepage;
+}
+
+@-webkit-keyframes dogcarepage {
+  from {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes dogcarepage {
+  from {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.doc-care-paragraph {
+  width: 600px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+  color: #1e506d;
+  font-weight: 600;
+  padding: 0 7px;
+}
+
+.img-div h1 {
+  font-size: 2.7rem;
+  color: #1e506d;
+  font-weight: 700;
+  text-shadow: 0px 5px 3px #d8d8d8;
+  border-bottom: 1px  solid #1e506d;
+  padding-bottom: 1rem;
+}
+
+.dog-with-owner-img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 4px 5px #6d6d6d;
+          box-shadow: 0px 4px 5px #6d6d6d;
+  -webkit-filter: brightness(115%);
+          filter: brightness(115%);
+}
+
+.dog-care-basics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dog-care-basics p {
+  font-size: 2rem;
+  color: #1e506d;
+  font-weight: 700;
+  letter-spacing: nowrap;
+  text-shadow: 0px 5px 3px #d8d8d8;
+  border-bottom: 1px  solid #1e506d;
+  padding-bottom: 0.4rem;
+}
+
+#cat-info {
+  color: #1e506d;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10px;
+}
+
+.nutrition-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+}
+
+.nutrition-div .nutrition-title {
+  font-size: 2rem;
+  color: #1e506d;
+  font-weight: 700;
+  text-shadow: 0px 5px 3px #d8d8d8;
+  border-bottom: 1px  solid #1e506d;
+  padding-bottom: 0.8rem;
+}
+
+button {
+  -webkit-box-shadow: 0px 4px 5px #c5c5c5;
+          box-shadow: 0px 4px 5px #c5c5c5;
+}
+/*# sourceMappingURL=catcare.css.map */

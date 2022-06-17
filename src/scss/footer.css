@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  background-color: #3156c5;
+  letter-spacing: 0.2px;
+  box-shadow: -1px -4px 5px 1px rgba(207, 207, 207, 0.75);
+  -webkit-box-shadow: -1px -4px 5px 1px rgba(207, 207, 207, 0.75);
+  -moz-box-shadow: -1px -4px 5px 1px rgba(207, 207, 207, 0.75);
+  margin-top: 100px;
+}
+
+footer a:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+footer *:hover {
+  color: #ffbd43 !important;
+  -webkit-transform: scale(0.999);
+          transform: scale(0.999);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+/*# sourceMappingURL=footer.css.map */

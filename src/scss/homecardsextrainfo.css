@@ -1,0 +1,49 @@
+img:hover {
+  -webkit-filter: brightness(106%);
+          filter: brightness(106%);
+  -webkit-transform: scale(1.002);
+          transform: scale(1.002);
+}
+
+#extrainfo {
+  background-color: whitesmoke;
+  padding-bottom: 120px !important;
+}
+
+#extrainfo {
+  padding-top: 20px !important;
+}
+
+#extrainfo * {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-name: extrainfo;
+          animation-name: extrainfo;
+}
+
+@-webkit-keyframes extrainfo {
+  from {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes extrainfo {
+  from {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+h1 {
+  text-align: center;
+}
+/*# sourceMappingURL=homecardsextrainfo.css.map */

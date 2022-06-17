@@ -1,0 +1,33 @@
+img:hover {
+  filter: brightness(106%);
+  transform: scale(1.002);
+}
+
+#extrainfo {
+  background-color: whitesmoke;
+  padding-bottom: 120px !important;
+}
+
+#extrainfo {
+  padding-top: 20px !important;
+}
+
+#extrainfo * {
+  animation-duration: 0.8s;
+  animation-name: extrainfo;
+}
+
+@keyframes extrainfo {
+  from  {
+    transform: scale(0.2);
+   }
+  to  {
+    transform: scale(1);
+   }
+}
+
+h1 {
+  text-align: center;
+}
+
+

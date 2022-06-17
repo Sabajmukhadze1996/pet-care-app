@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    background-color: rgb(49, 86, 197);
+    letter-spacing: 0.2px;
+    box-shadow: -1px -4px 5px 1px rgba(207,207,207,0.75);
+    -webkit-box-shadow: -1px -4px 5px 1px rgba(207,207,207,0.75);
+    -moz-box-shadow: -1px -4px 5px 1px rgba(207,207,207,0.75);
+    margin-top: 100px;
+}
+
+footer a:hover {
+   transform: scale(0.96);
+}
+
+footer *:hover {
+    color: rgb(255, 189, 67) !important;
+    transform: scale(0.999);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
