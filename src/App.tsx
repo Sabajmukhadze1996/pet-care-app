@@ -32,10 +32,10 @@ import { FeaturesPage } from './pages/FeaturesPage';
 const App: React.FC  = () => {
   return (
 <BrowserRouter>
-    <Routes>
-      <Route index element={<RegistrationPage />}/>
-    </Routes>
   <div className="App">
+     <Routes>
+       <Route index element={<RegistrationPage />} />
+     </Routes>
      <Navbar />
       <main id="main">
         <Routes>
