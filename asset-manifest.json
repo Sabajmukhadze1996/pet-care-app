@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pet-care-app/static/css/main.46fe0e19.css",
-    "main.js": "/pet-care-app/static/js/main.651e0528.js",
+    "main.css": "/pet-care-app/static/css/main.78876104.css",
+    "main.js": "/pet-care-app/static/js/main.82531fd9.js",
     "static/media/dog-owner.png": "/pet-care-app/static/media/dog-owner.75138c595261cf5199af.png",
     "static/media/Alaskan-Klee-Kai.png": "/pet-care-app/static/media/Alaskan-Klee-Kai.3f4957458a93cde9490a.png",
     "static/media/akbash.png": "/pet-care-app/static/media/akbash.eeca3f4f590b004c359b.png",
@@ -27,11 +27,11 @@
     "static/media/nutrition1.png": "/pet-care-app/static/media/nutrition1.178bfe9ee70501ef9b0c.png",
     "static/media/bengal.png": "/pet-care-app/static/media/bengal.a9b5730a118929a05bff.png",
     "index.html": "/pet-care-app/index.html",
-    "main.46fe0e19.css.map": "/pet-care-app/static/css/main.46fe0e19.css.map",
-    "main.651e0528.js.map": "/pet-care-app/static/js/main.651e0528.js.map"
+    "main.78876104.css.map": "/pet-care-app/static/css/main.78876104.css.map",
+    "main.82531fd9.js.map": "/pet-care-app/static/js/main.82531fd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.46fe0e19.css",
-    "static/js/main.651e0528.js"
+    "static/css/main.78876104.css",
+    "static/js/main.82531fd9.js"
   ]
 }
