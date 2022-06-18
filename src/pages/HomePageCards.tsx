@@ -25,6 +25,7 @@ import burmese_img from "../homepage-cat-images/burmese.png"
 import { useNavigate } from "react-router-dom"
 import { HomeHero } from "./HomeHero"
 import { Footer } from "./Footer"
+import { Navbar } from "./Navbar"
 
 
 export const HomePageCards = () => {
@@ -32,6 +33,7 @@ export const HomePageCards = () => {
 
   return (
     <>
+    <Navbar />
     <HomeHero />
     <h1 className="text-center display-4 fw-bold pt-3 dogs-title" 
     style={{borderBottom: "0.1px solid black", paddingBottom: "20px", borderColor: "#28678b"}}>

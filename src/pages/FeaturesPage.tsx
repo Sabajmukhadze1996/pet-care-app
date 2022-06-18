@@ -17,6 +17,7 @@ import american_shorthair__img from "../homepage-cat-images/american-shorthair.p
 import american_wirehair_img from "../homepage-cat-images/american-wirehair.png" 
 import balinese_img from "../homepage-cat-images/balinese.png" 
 import bengal_img from "../homepage-cat-images/bengal.png" 
+import { Navbar } from "./Navbar"
 
 
 
@@ -26,6 +27,7 @@ import bengal_img from "../homepage-cat-images/bengal.png"
 export const FeaturesPage = () => {
   return (
 <>
+<Navbar />
   <div className="features pt-4">
     <h1>Features &#128054;</h1>
 

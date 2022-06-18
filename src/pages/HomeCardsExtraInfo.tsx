@@ -23,12 +23,15 @@ import bengal_img from "../homepage-cat-images/bengal.png"
 import birman_img from "../homepage-cat-images/birman.png" 
 import bombay_img from "../homepage-cat-images/bombay.png" 
 import burmese_img from "../homepage-cat-images/burmese.png" 
+import { Navbar } from "./Navbar"
 
 
 
 export const HomeCardsExtraInfo1 = () => {
   const navigate = useNavigate()
   return (
+<>   
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Affenpinscher</h1>
       <img src={affenpinscher_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -45,6 +48,7 @@ Dogs of the Affenpinscher type have been known since about 1600, but these were 
   <hr />
 </div>
     </div>
+</>  
   )
 }
 
@@ -52,6 +56,8 @@ Dogs of the Affenpinscher type have been known since about 1600, but these were 
 export const HomeCardsExtraInfo2 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Afghan Hound</h1>
       <img src={afghan_hound_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -69,6 +75,7 @@ export const HomeCardsExtraInfo2 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -76,6 +83,8 @@ export const HomeCardsExtraInfo2 = () => {
 export const HomeCardsExtraInfo3 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Airedale Terrier</h1>
       <img src={airedale_terrier_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -95,6 +104,7 @@ export const HomeCardsExtraInfo3 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -102,6 +112,8 @@ export const HomeCardsExtraInfo3 = () => {
 export const HomeCardsExtraInfo4 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Akbash</h1>
       <img src={akbash_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -120,6 +132,7 @@ export const HomeCardsExtraInfo4 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -127,6 +140,8 @@ export const HomeCardsExtraInfo4 = () => {
 export const HomeCardsExtraInfo5 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Akita</h1>
       <img src={akita_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -146,6 +161,7 @@ export const HomeCardsExtraInfo5 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -153,6 +169,8 @@ export const HomeCardsExtraInfo5 = () => {
 export const HomeCardsExtraInfo6 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Alaskan Kai</h1>
       <img src={alaskan_klee_kai_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -173,6 +191,7 @@ export const HomeCardsExtraInfo6 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -180,6 +199,8 @@ export const HomeCardsExtraInfo6 = () => {
 export const HomeCardsExtraInfo7 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Alaskan Malamute</h1>
       <img src={alaskan_malamute_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -199,6 +220,7 @@ export const HomeCardsExtraInfo7 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -206,6 +228,8 @@ export const HomeCardsExtraInfo7 = () => {
 export const HomeCardsExtraInfo8 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Bulldog</h1>
       <img src={american_bulldog_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -224,6 +248,7 @@ export const HomeCardsExtraInfo8 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -231,6 +256,8 @@ export const HomeCardsExtraInfo8 = () => {
 export const HomeCardsExtraInfo9 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Bully</h1>
       <img src={american_bully_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -249,12 +276,15 @@ export const HomeCardsExtraInfo9 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
 export const HomeCardsExtraInfo10 = () => {
   const navigate = useNavigate()
   return (
+<>
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Belgian Shepherd</h1>
       <img src={Belgian_Shepherd_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -274,6 +304,7 @@ export const HomeCardsExtraInfo10 = () => {
   <hr />
 </div>
     </div>
+</>
   )
 } 
 
@@ -297,6 +328,8 @@ export const HomeCardsExtraInfo10 = () => {
 export const HomeCardsExtraInfo11 = () => {
   const navigate = useNavigate()
   return (
+ <>   
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Abyssinian</h1>
       <img src={abyssinian_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -315,6 +348,7 @@ export const HomeCardsExtraInfo11 = () => {
   <hr />
 </div>
     </div>
+    </>
   )
 } 
 
@@ -322,6 +356,8 @@ export const HomeCardsExtraInfo11 = () => {
 export const HomeCardsExtraInfo12 = () => {
   const navigate = useNavigate()
   return (
+ <>
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Bobtail</h1>
       <img src={american_bobtail_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -341,6 +377,7 @@ export const HomeCardsExtraInfo12 = () => {
   <hr />
 </div>
     </div>
+    </>   
   )
 } 
 
@@ -348,6 +385,8 @@ export const HomeCardsExtraInfo12 = () => {
 export const HomeCardsExtraInfo13 = () => {
   const navigate = useNavigate()
   return (
+ <> 
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Curl</h1>
       <img src={american_curl_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -366,6 +405,7 @@ export const HomeCardsExtraInfo13 = () => {
   <hr />
 </div>
     </div>
+    </>   
   )
 } 
 
@@ -373,6 +413,8 @@ export const HomeCardsExtraInfo13 = () => {
 export const HomeCardsExtraInfo14 = () => {
   const navigate = useNavigate()
   return (
+ <>  
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Shorthair</h1>
       <img src={american_shorthair__img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -392,6 +434,7 @@ export const HomeCardsExtraInfo14 = () => {
   <hr />
 </div>
     </div>
+    </>   
   )
 } 
 
@@ -399,6 +442,8 @@ export const HomeCardsExtraInfo14 = () => {
 export const HomeCardsExtraInfo15 = () => {
   const navigate = useNavigate()
   return (
+ <>
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>American Wirehair</h1>
       <img src={american_wirehair_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -418,6 +463,7 @@ export const HomeCardsExtraInfo15 = () => {
   <hr />
 </div>
     </div>
+    </>
   )
 } 
 
@@ -425,6 +471,8 @@ export const HomeCardsExtraInfo15 = () => {
 export const HomeCardsExtraInfo16 = () => {
   const navigate = useNavigate()
   return (
+ <>
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Balinese</h1>
       <img src={balinese_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -443,6 +491,7 @@ export const HomeCardsExtraInfo16 = () => {
   <hr />
 </div>
     </div>
+    </>    
   )
 } 
 
@@ -450,6 +499,8 @@ export const HomeCardsExtraInfo16 = () => {
 export const HomeCardsExtraInfo17 = () => {
   const navigate = useNavigate()
   return (
+ <> 
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Bengal</h1>
       <img src={bengal_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -467,6 +518,7 @@ export const HomeCardsExtraInfo17 = () => {
   <hr />
 </div>
     </div>
+    </>    
   )
 } 
 
@@ -474,6 +526,8 @@ export const HomeCardsExtraInfo17 = () => {
 export const HomeCardsExtraInfo18 = () => {
   const navigate = useNavigate()
   return (
+<>  
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Birman</h1>
       <img src={birman_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -492,6 +546,7 @@ export const HomeCardsExtraInfo18 = () => {
   <hr />
 </div>
     </div>
+    </>    
   )
 } 
 
@@ -499,6 +554,8 @@ export const HomeCardsExtraInfo18 = () => {
 export const HomeCardsExtraInfo19 = () => {
   const navigate = useNavigate()
   return (
+ <>
+ <Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Bombay</h1>
       <img src={bombay_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -516,6 +573,7 @@ export const HomeCardsExtraInfo19 = () => {
   <hr />
 </div>
     </div>
+    </>    
   )
 } 
 
@@ -523,6 +581,8 @@ export const HomeCardsExtraInfo19 = () => {
 export const HomeCardsExtraInfo20 = () => {
   const navigate = useNavigate()
   return (
+<>  
+<Navbar />
     <div id="extrainfo" style={{display: "flex", flexDirection: "column", alignItems: "center", padding: "0 5px", position: "absolute", width: "100%"}}>
       <h1 style={{fontSize: "2.5rem", color: "#28678b", borderBottom: "1px solid #28678b", paddingBottom: "8px", textShadow: "0px 6px 5px lightgray", cursor: "pointer"}}>Burmese</h1>
       <img src={burmese_img} style={{width: "500px", maxWidth: "100%", marginTop: "7px", borderRadius: "9px", boxShadow: "0px 6px 5px lightgray"}}/>
@@ -541,6 +601,7 @@ export const HomeCardsExtraInfo20 = () => {
   <hr />
 </div>
     </div>
+    </>    
   )
 } 
 

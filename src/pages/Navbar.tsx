@@ -8,7 +8,7 @@ return (
 <>
 <nav className="navbar w-100 navbar-expand-md sticky-top pt-1 navbar-dark px-2">
   <div className="container-fluid">
-    <a className="navbar-brand fw-bold" href="/homepage">
+    <a className="navbar-brand fw-bold" >
         &#128054; Pet Care
     </a>
     <button className="navbar-toggler" type="button" 

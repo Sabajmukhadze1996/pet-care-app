@@ -11,6 +11,7 @@ import { HillsScienceDetail } from "../dog-care-page-details/HillsScienceDetail"
 import { PedigreeDetail } from "../dog-care-page-details/PedigreeDetail"
 import { PurinaProPlanDetail } from "../dog-care-page-details/PurinaProPlanDetail"
 import { RoyalCaninDetail } from "../dog-care-page-details/RoyalCaninDetail"
+import { Navbar } from "./Navbar";
 
 
 export const DogCarePage = () => {
@@ -62,6 +63,7 @@ export const DogCarePage = () => {
 
   return (
 <>
+<Navbar />
  <div className="dog-care-page w-100 pt-4">
    <div className="img-div">
       <h1>Dog Care &#128054;</h1>

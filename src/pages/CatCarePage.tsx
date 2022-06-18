@@ -11,6 +11,7 @@ import { AcanaIndoorEntree } from "../cat-care-page-details/AcanaIndoorEntree";
 import { HillsSciencDiet } from "../cat-care-page-details/HillsSciencDiet";
 import { IamsProactiveHealth } from "../cat-care-page-details/IamsProactiveHealth";
 import { RoyalCaninMother } from "../cat-care-page-details/RoyalCaninMother";
+import { Navbar } from "./Navbar";
 
 export const CatCarePage = () => {
     
@@ -61,6 +62,7 @@ export const CatCarePage = () => {
 
   return (
 <>
+<Navbar />
  <div className="dog-care-page w-100 pt-4">
    <div className="img-div">
       <h1>Cat Care &#128049;</h1>

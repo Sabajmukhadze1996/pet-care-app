@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RegistrationPage } from './pages/RegistrationPage';
-import { Navbar } from './pages/Navbar';
-import { Footer } from './pages/Footer';
 import { HomeCardsExtraInfo1 } from './pages/HomeCardsExtraInfo';
 import { HomeCardsExtraInfo2 } from './pages/HomeCardsExtraInfo';
 import { HomeCardsExtraInfo3 } from './pages/HomeCardsExtraInfo';
@@ -33,12 +31,9 @@ const App: React.FC  = () => {
   return (
 <BrowserRouter>
   <div className="App">
-     <Routes>
-       <Route index element={<RegistrationPage />} />
-     </Routes>
-     <Navbar />
       <main id="main">
         <Routes>
+          <Route path="/*" element={<RegistrationPage />} />
           <Route path="/homepage" element={<HomePageCards />}/>
           <Route path="/homepage/affenpinscher" element={<HomeCardsExtraInfo1 />}/>
           <Route path="/homepage/afghanhound" element={<HomeCardsExtraInfo2 />}/>
