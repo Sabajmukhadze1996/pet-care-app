@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/pet-care-app/static/css/main.813cddc5.css",
+    "main.js": "/pet-care-app/static/js/main.6088996b.js",
+    "static/media/dog-owner.png": "/pet-care-app/static/media/dog-owner.75138c595261cf5199af.png",
+    "static/media/Alaskan-Klee-Kai.png": "/pet-care-app/static/media/Alaskan-Klee-Kai.3f4957458a93cde9490a.png",
+    "static/media/akbash.png": "/pet-care-app/static/media/akbash.eeca3f4f590b004c359b.png",
+    "static/media/dogwithowner.png": "/pet-care-app/static/media/dogwithowner.01e4e2960a5bfb305889.png",
+    "static/media/ownerwithcat.png": "/pet-care-app/static/media/ownerwithcat.6c6392294ebfa4de26b5.png",
+    "static/media/nutrition2.png": "/pet-care-app/static/media/nutrition2.f8ecfe46fd8dbe3e7f5d.png",
+    "static/media/airedale-terrier.png": "/pet-care-app/static/media/airedale-terrier.c7e1fa1cb4efa554ac2e.png",
+    "static/media/American-bulldog.png": "/pet-care-app/static/media/American-bulldog.6f8da07e6c46e3080635.png",
+    "static/media/Belgian-Shepherd.png": "/pet-care-app/static/media/Belgian-Shepherd.3d2cb7a12d05e0f33206.png",
+    "static/media/afghan-hound.png": "/pet-care-app/static/media/afghan-hound.fa377298f18209ff3b4e.png",
+    "static/media/affenpinscher.png": "/pet-care-app/static/media/affenpinscher.440755abbbd065519ec4.png",
+    "static/media/American-Bully.png": "/pet-care-app/static/media/American-Bully.035ac061884fccaa37a8.png",
+    "static/media/alaskan-malamute.png": "/pet-care-app/static/media/alaskan-malamute.75ae4fd9b2e9fc2ec63e.png",
+    "static/media/akita.png": "/pet-care-app/static/media/akita.53fd034495a175ad4603.png",
+    "static/media/american-wirehair.png": "/pet-care-app/static/media/american-wirehair.cef38918e6a0eedea3b9.png",
+    "static/media/american-curl.png": "/pet-care-app/static/media/american-curl.c2d9aec272650c2419ac.png",
+    "static/media/american-bobtail.png": "/pet-care-app/static/media/american-bobtail.02a3acbd9ad6fedf1281.png",
+    "static/media/nutrition4.png": "/pet-care-app/static/media/nutrition4.169db2ec8d75998d5cbf.png",
+    "static/media/burmese.png": "/pet-care-app/static/media/burmese.2e01facc70921f2d1ae6.png",
+    "static/media/nutrition3.png": "/pet-care-app/static/media/nutrition3.c5242389520d4099e66d.png",
+    "static/media/american-shorthair.png": "/pet-care-app/static/media/american-shorthair.4da5e07fd5d7bef1e4b9.png",
+    "static/media/abyssinian.png": "/pet-care-app/static/media/abyssinian.d748993003896f5ee911.png",
+    "static/media/nutrition1.png": "/pet-care-app/static/media/nutrition1.178bfe9ee70501ef9b0c.png",
+    "static/media/bengal.png": "/pet-care-app/static/media/bengal.a9b5730a118929a05bff.png",
+    "index.html": "/pet-care-app/index.html",
+    "main.813cddc5.css.map": "/pet-care-app/static/css/main.813cddc5.css.map",
+    "main.6088996b.js.map": "/pet-care-app/static/js/main.6088996b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.813cddc5.css",
+    "static/js/main.6088996b.js"
+  ]
+}
